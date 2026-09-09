@@ -227,7 +227,7 @@ Use the credit note that matches your track.
 Paste your LinkedIn post URL here:
 
 ```text
-YOUR-LINKEDIN-POST-URL
+https://lnkd.in/p/dgdJ2rWP
 ```
 
 ---
@@ -264,7 +264,7 @@ This week helped me build a stronger foundation for my DevOps journey. Looking f
 
 > **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra.**
 
-> **My graded progress is public:** `YOUR-DMI-PROGRESS-URL`
+> **My graded progress is public:** `https://github.com/DGokulg/devops-micro-internship-pravinmishra/tree/main`
 
 > **Start your DevOps journey:** https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3
 
