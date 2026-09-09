@@ -4,6 +4,25 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ---
 
+## 🧑‍💻 Student
+
+- **Name:** Gokulganesh D
+- **Cohort:** 3
+- **Program:** DevOps Micro Internship (DMI) with Agentic AI
+
+---
+
+## 📋 Tasks
+
+1. [Task 1: Using ChatGPT as Your Learning Assistant](#-task-1-using-chatgpt-as-your-learning-assistant)
+2. [Task 2: Internet and Networking](#-task-2-internet-and-networking)
+3. [Task 3: Application Architecture & Stack](#-task-3-application-architecture--stack)
+4. [Task 4: Domain Name & DNS (Basic Concepts)](#-task-4-domain-name--dns-basic-concepts)
+5. [Task 5: Visual Studio Code Setup (Hands-on)](#-task-5-visual-studio-code-setup-hands-on)
+6. [Task 6: Publish Your Assignment as a LinkedIn Post](#-task-6-publish-your-assignment-as-a-linkedin-post)
+
+---
+
 # 🧑‍💻 Task 1: Using ChatGPT as Your Learning Assistant
 
 ## Scenario
@@ -18,23 +37,20 @@ Write a clear ChatGPT prompt to help you understand:
 
 Take a screenshot of your interaction showing:
 
-* Your detailed prompt (with clear expectations)
-* ChatGPT's simplified response with an example
+- Your detailed prompt with clear expectations
+- ChatGPT's simplified response with an example
 
 ## Screenshot
 
-Save your screenshot in the `screenshots` folder and update the file name below.
+Save your screenshot in the `screenshots` folder and update the file name below if needed.
 
 ![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
 
+## What I Learned
 
-Replace `task-1-chatgpt.png` with your actual screenshot file name.
+I learned that a protocol is a set of rules that allows computers to communicate and exchange data correctly.
 
----
-
-## What I Learned (2–3 lines)
-
-Add your answer here...
+It’s similar to traffic rules where we all follow the same rules to communicate in a safe and smooth way.
 
 ---
 
@@ -50,16 +66,18 @@ He asked you to explain how users globally can access his website hosted in Finl
 
 Write a short explanation (**100–150 words**) that includes:
 
-* Packet Switching
-* IP Address
-* TCP/IP
-* HTTP/HTTPS
-
-💡 **Tip:** You may use ChatGPT (as demonstrated in Task 1) to refine your explanation.
+- Packet Switching
+- IP Address
+- TCP/IP
+- HTTP/HTTPS
 
 ## Answer
 
-Add your answer here...
+Every time a person in any part of the world visits EpicReads, their request is broken down into small bits of data known as packets. This process is called packet switching and means that packets are routed through different networks and routes until they reach the website server in Finland.
+
+The server has a unique IP address. This helps identify the location of the server and make sure the packets go to the right destination. TCP/IP provides the rules of communication. IP is concerned with addressing and routing. TCP is concerned with reliable and ordered delivery of packets.
+
+Then, HTTP/HTTPS is used to request and transfer web pages, images, and other content between the user and the server. HTTPS encrypts the communication, so the user data is more secure.
 
 ---
 
@@ -71,49 +89,44 @@ EpicReads bookstore has two application versions:
 
 ### Two-Tier Application
 
-* Frontend
-* Database
+- Frontend
+- Database
 
 ### Three-Tier Application
 
-* Frontend
-* Backend
-* Database
+- Frontend
+- Backend
+- Database
 
 ## Your Task
 
-* Draw simple diagrams (hand-drawn or tool-based such as draw.io)
-* Label each layer clearly
-* List at least two common technologies or tools used for each layer
-* Submit a screenshot or photo clearly showing your own drawing
+- Draw simple diagrams (hand-drawn or tool-based such as draw.io)
+- Label each layer clearly
+- List at least two common technologies or tools used for each layer
+- Submit a screenshot or photo clearly showing your own drawing
 
 ## Diagram Screenshot / Photo
 
-Save your diagram image in the `screenshots` folder and update the file name below.
+Save your diagram image in the `screenshots` folder and update the file name below if needed.
 
 ![Application Architecture Diagram](screenshots/task-3-diagram.png)
-
-
-Replace `task-3-diagram.png` with your actual diagram file name.
-
----
 
 ## Technologies Used
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+- HTML/CSS
+- React
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+- Node.js
+- Django
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+- MySQL
+- PostgreSQL
 
 ---
 
@@ -142,7 +155,9 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+DNS (Domain Name System) is like the internet’s phonebook. It turns easy-to-remember domain names, like epicreads.com, into the IP addresses that computers use to find servers.
+
+For EpicReads, an A record is used as it associates the domain name epicreads.com with the IPv4 address 52.172.142.222. When a user types epicreads.com, the DNS looks up the IP address and sends the request to the EpicReads server. The `:3000` is a port number, not part of the DNS record.
 
 ---
 
@@ -154,8 +169,8 @@ Install Visual Studio Code (if not already installed).
 
 Take a screenshot of your VS Code environment showing:
 
-* Terminal open inside VS Code
-* Running a basic command:
+- Terminal open inside VS Code
+- Running a basic command
 
 ### Windows
 
@@ -170,18 +185,16 @@ pwd
 ls
 ```
 
-* Your selected VS Code theme clearly visible
+The screenshot should also show:
 
-⚠️ **Important:** The screenshot must show your username or another identifiable detail to confirm it is your environment.
+- Your selected VS Code theme clearly visible
+- Your username or another identifiable detail to confirm it is your environment
 
 ## Screenshot
 
-Save your screenshot in the `screenshots` folder and update the file name below.
+Save your screenshot in the `screenshots` folder and update the file name below if needed.
 
 ![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
-
-
-Replace `task-5-vscode.png` with your actual screenshot file name.
 
 ---
 
@@ -191,9 +204,9 @@ Replace `task-5-vscode.png` with your actual screenshot file name.
 
 Publishing on LinkedIn helps you:
 
-* Build your professional online presence
-* Reinforce your learning
-* Document your DevOps journey publicly
+- Build your professional online presence
+- Reinforce your learning
+- Document your DevOps journey publicly
 
 ## Your Task
 
@@ -201,85 +214,100 @@ Summarize your answers from Tasks 1–5 into a LinkedIn post.
 
 Clearly structure your post into the following sections:
 
-* ChatGPT
-* Internet & Networking
-* App Architecture
-* DNS
-* VS Code Setup
+- ChatGPT
+- Internet & Networking
+- App Architecture
+- DNS
+- VS Code Setup
 
-Use the credit note that matches your track:
+Use the credit note that matches your track.
 
-Add the following credit note at the end of your post **(If you are DMI Cohort 3 student)**:
-
-> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
-
-
-Add the following credit note at the end of your post **(If you are DMI Self-paced track student)**:
-
-> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=self-paced**
-
-Add the following credit note at the end of your post **(If you are DMI Campus student)**:
-
-> **P.S. This post is part of the DevOps Micro Internship (DMI) — Campus — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=campus**
-
-Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your public DMI progress page (your graded badge page).
----
-
-## LinkedIn Post URL
+### LinkedIn Post
 
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+YOUR-LINKEDIN-POST-URL
 ```
 
 ---
 
 ## LinkedIn Post Backup Copy
 
-Paste the full text of your LinkedIn post here:
+Week 0 of my DevOps Micro Internship (DMI) Cohort 3 with Agentic AI is completed.
 
-Add your post content here...
+This week, I learned the fundamentals of the Internet, Networking, Application Architecture, DNS, and VS Code.
+
+### ChatGPT
+
+I learned how networking protocols work and how they act as rules that allow computers to communicate with each other.
+
+### Internet & Networking
+
+I learned about packet switching, IP addresses, TCP/IP, and HTTP/HTTPS, and how these technologies work together to deliver a website to users globally.
+
+### App Architecture
+
+I explored two-tier and three-tier application architectures and learned about frontend, backend, and database layers.
+
+### DNS
+
+I learned how DNS converts human-readable domain names into IP addresses and how an A record can connect a domain to an IPv4 address.
+
+### VS Code Setup
+
+I configured my VS Code environment, opened the integrated terminal, and practiced basic commands.
+
+This week helped me build a stronger foundation for my DevOps journey. Looking forward to learning and building more in the upcoming weeks.
+
+### Credit Note
+
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra.**
+
+> **My graded progress is public:** `YOUR-DMI-PROGRESS-URL`
+
+> **Start your DevOps journey:** https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3
 
 ---
 
 # Reflection – Week 0
 
-### What did you find easy?
+## What did you find easy?
 
-Add your answer here...
-
----
-
-### What was difficult?
-
-Add your answer here...
+I found the basic networking concepts such as protocols, IP addresses, DNS, and HTTP/HTTPS easy to understand. Using ChatGPT as a learning assistant also helped me understand technical concepts through simple real-life examples.
 
 ---
 
-### What will you improve next week?
+## What was difficult?
 
-Add your answer here...
+Understanding how different networking concepts work together was initially difficult, especially packet switching, TCP/IP, and DNS. Creating and understanding the difference between two-tier and three-tier application architecture also required some practice.
 
 ---
 
-## 📌 About DMI & CloudAdvisory
+## What will you improve next week?
+
+Next week, I want to improve my practical DevOps skills by spending more time working with Linux commands, Git, networking, and cloud-related tools. I also want to understand the concepts by implementing them rather than only learning the theory.
+
+---
+
+# 📌 About DMI & CloudAdvisory
 
 DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
 
 It helps learners build strong DevOps foundations with hands-on experience.
 
+---
 
-## 📌 Resources
+# 📌 Resources
 
-- 🌐 **DMI Official Website:** https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 🎓 **University:** https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 💬 **Discord Community:** https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 📝 **Blog:** https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
-- ▶️ **YouTube Playlist (DMI Cohort 3):** https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 **Pravin Mishra (LinkedIn):** https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
+- 🌐 **DMI Official Website:** https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme
+- 🎓 **University:** https://university.pravinmishra.com?utm_source=github&utm_medium=readme
+- 💬 **Discord Community:** https://discord.pravinmishra.com?utm_source=github&utm_medium=readme
+- 📝 **Blog:** https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme
+- ▶️ **YouTube Playlist (DMI Cohort 3):** https://www.youtube.com/playlist?list=PLFeSNDtI4Cho
+- 🔗 **Pravin Mishra (LinkedIn):** https://www.linkedin.com/in/pravin-mishra-aws-trainer/
 - 🏢 **CloudAdvisory (LinkedIn):** https://www.linkedin.com/company/thecloudadvisory/
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track*
+*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
